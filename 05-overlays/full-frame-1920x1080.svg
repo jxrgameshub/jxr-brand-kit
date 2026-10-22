@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="JXR Gaming starting soon screen">
+  <title>Full-Frame Starting / BRB / Ending — 1920 x 1080 (BRAND-GUIDELINES.md §8.5 C)</title>
+  <desc>
+    Opaque full-frame scene. Use for starting-soon, be-right-back and ending.
+    Replace [HEADLINE], [SUB], [CODE].
+    The 18+ / responsible-gaming line is MANDATORY on this scene (bottom-left, 20px, #8e8e9a).
+    Grid texture is optional: 18px cells, #f97316 at 8% alpha, layer opacity 20%.
+  </desc>
+
+  <defs>
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M 18 0 L 0 0 0 18" fill="none" stroke="#f97316" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#0a0a10"/>
+  <rect width="1920" height="1080" fill="url(#grid)" opacity="0.2"/>
+
+  <!-- Mascot: 280x280 clear space, centred -->
+  <image x="820" y="150" width="280" height="280"
+         href="../01-logo/juicebox-sticker-512.png" preserveAspectRatio="xMidYMid meet"/>
+
+  <text x="960" y="560" text-anchor="middle" font-family="CourbeSans, sans-serif"
+        font-size="96" font-weight="700" fill="#f2f2f7" letter-spacing="2">[HEADLINE]</text>
+  <text x="960" y="620" text-anchor="middle" font-family="CourbeSans, sans-serif"
+        font-size="40" fill="#8e8e9a">[SUB]</text>
+
+  <!-- CTA rule: 3px, 240px wide, 32px above the code -->
+  <rect x="840" y="676" width="240" height="3" fill="#f97316"/>
+
+  <text x="960" y="742" text-anchor="middle" font-family="CourbeSans, sans-serif"
+        font-size="32" font-weight="700" fill="#8e8e9a" letter-spacing="3.2">USE CODE</text>
+  <text x="960" y="860" text-anchor="middle" font-family="CourbeSans, sans-serif"
+        font-size="120" font-weight="700" fill="#f2f2f7" letter-spacing="9.6">[CODE]</text>
+  <text x="960" y="916" text-anchor="middle" font-family="CourbeSans, sans-serif"
+        font-size="40" fill="#8e8e9a">juicer.games</text>
+
+  <!-- MANDATORY compliance line -->
+  <text x="40" y="1040" font-family="CourbeSans, sans-serif" font-size="20" fill="#8e8e9a">18+. Play responsibly. Self-exclusion and account-limit tools are available.</text>
+</svg>

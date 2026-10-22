@@ -1,0 +1,163 @@
+/* ============================================================
+   JXR Gaming — Brand Palette
+   ------------------------------------------------------------
+   GENERATED FROM: src/app/globals.css
+   Drop-in CSS custom properties. Import this file into any
+   web-based asset, or use it as the value source when building
+   a Figma / Affinity / Photoshop swatch library.
+
+   DO NOT add colours here. Every value below was verified
+   against the application source. See ../BRAND-GUIDELINES.md §2.
+   ============================================================ */
+
+:root {
+  /* ---- Core semantic tokens ---- */
+  --background: #0d1017;
+  --card: #0b0e14;
+  --popover: #0f131a;
+  --foreground: #bfbdb6;
+  --primary: #f0a342;            /* BRAND GOLD — identity */
+  --primary-foreground: #734d00;
+  --secondary: #0b0e14;
+  --muted: #131721;
+  --muted-foreground: #565b66;
+  --accent: #0f131a;
+  --destructive: #f26d78;
+  --border: #1e232b;
+  --input: #2a2f3a;
+  --ring: #f0a342;
+
+  /* ---- Brand gold ramp (1 -> 12) ---- */
+  --accent-1: #0d0a02;
+  --accent-2: #171106;
+  --accent-3: #241b07;
+  --accent-4: #332609;
+  --accent-5: #42320d;
+  --accent-6: #554010;
+  --accent-7: #6d5317;
+  --accent-8: #8c6c1f;
+  --accent-9: #f0a342;
+  --accent-10: #e9973c;
+  --accent-11: #ffca62;
+  --accent-12: #fdeecb;
+
+  /* ---- Brand tokens ---- */
+  --jxr-primary: #f0a342;
+  --jxr-primary-hover: #e9973c;
+  --jxr-primary-muted: rgba(240, 163, 66, 0.12);
+  --jxr-primary-glow: rgba(240, 163, 66, 0.3);
+  --jxr-secondary: #f9af4f;
+  --jxr-gradient: linear-gradient(135deg, #f0a342, #f9af4f);
+
+  /* ---- v2.0 orange (ACTION accent) ---- */
+  --jxr-accent-orange: #f97316;
+  --jxr-accent-orange-hover: #fb8c2a;
+  --jxr-accent-orange-glow: rgba(249, 115, 22, 0.55);
+  --jxr-accent-orange-bg: #2a1808;
+  --jxr-accent-orange-bright: #ff8a2b;
+
+  /* ---- Deep surfaces ---- */
+  --jxr-bg-app: #0a0a10;
+  --jxr-bg-panel: #0e0e16;
+  --jxr-bg-panel-2: #12121c;
+  --jxr-bg-deeper: #07080e;
+  --jxr-bg-input: #161620;
+  --jxr-border-subtle: #20202c;
+  --jxr-border-strong: #2c2c3a;
+
+  /* ---- Text ---- */
+  --jxr-text-primary: #f2f2f7;
+  --jxr-text-secondary: #8e8e9a;
+  --jxr-text-tertiary: #5a5a66;
+
+  /* ---- Accents ---- */
+  --jxr-accent-cyan: #4dffd1;
+  --jxr-accent-green: #22c55e;
+  --jxr-accent-red: #ff4d6a;
+
+  /* ---- Semantic status (system messages, NOT outcomes) ---- */
+  --success: #7fd962;
+  --warning: #ffb454;
+  --danger: #f26d78;
+  --info: #90e1c6;
+
+  /* ---- Result pairs (outcomes) ---- */
+  --result-win: #22c55e;
+  --result-loss: #ff4d6a;
+  --result-win-bg: #0a1f12;
+  --result-loss-bg: #2b1018;
+
+  /* ---- Chart series ---- */
+  --chart-1: #f0a342;
+  --chart-2: #f9af4f;
+  --chart-3: #7fd962;
+  --chart-4: #90e1c6;
+  --chart-5: #d2a6ff;
+
+  /* ---- Geometry ---- */
+  --jxr-radius-sharp: 3px;
+  --jxr-radius-item: 2px;
+  --jxr-radius-card: 10px;
+  --jxr-radius-panel: 4px;
+
+  /* ---- Depth ---- */
+  --jxr-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.85);
+  --jxr-shadow-frame: 0 1px 3px rgba(0, 0, 0, 0.9), 0 12px 32px rgba(0, 0, 0, 0.8);
+  --jxr-shadow-modal: 0 16px 40px rgba(0, 0, 0, 0.95);
+
+  /* ---- Type scale ---- */
+  --jxr-text-2xs: 0.5rem;    /* 8px  */
+  --jxr-text-xs: 0.625rem;   /* 10px */
+  --jxr-text-sm: 0.6875rem;  /* 11px */
+  --jxr-text-md: 0.8125rem;  /* 13px */
+  --jxr-text-lg: 0.9375rem;  /* 15px */
+
+  /* ---- Fonts ---- */
+  --font-brand: "CourbeSans", "Inter", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  --font-display: "Arial Black", "Impact", "Franklin Gothic Heavy",
+    "Haettenschweiler", system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ---- Game accents (live lobby values) ---- */
+:root {
+  --game-crash: #f97316;
+  --game-plinko: #f97316;
+  --game-dice: #f97316;
+  --game-roulette: #f97316;
+  --game-flip: #f97316;
+  --game-slots: #f97316;
+  --game-jackpot: #f97316;
+  --game-limbo: #f9af4f;
+  --game-keno: #f9af4f;
+  --game-wheel: #f9af4f;
+  --game-blackjack: #f07178;
+  --game-hilo: #ffb454;
+  --game-mines: #ff4d6a;
+}
+
+/* ---- VIP tier colours (14 tiers, fixed) ---- */
+:root {
+  --vip-wood: #b08150;
+  --vip-bronze: #cd7f32;
+  --vip-silver: #c0c0c0;
+  --vip-gold: #ffd700;
+  --vip-platinum: #e5e4e2;
+  --vip-jade: #3ecf8e;
+  --vip-sapphire: #4a9dff;
+  --vip-ruby: #e5484d;
+  --vip-diamond: #8dd8f8;
+  --vip-opal: #9fe6e0;
+  --vip-dragon: #ff6b6b;
+  --vip-mythic: #ffd700;
+  --vip-dark: #6b7280;
+  --vip-legend: #fbbf24;
+}
+
+/* ---- OG / share card one-off values ---- */
+:root {
+  --og-bg-from: #0b0b12;
+  --og-bg-to: #14141e;
+  --og-footer-text: #c2c2cc; /* approved for the OG footer slot ONLY */
+}

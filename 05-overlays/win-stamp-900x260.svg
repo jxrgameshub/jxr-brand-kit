@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="JXR Gaming winning moment stamp">
+  <title>Winning-Moment Stamp — 900 x 260 (BRAND-GUIDELINES.md §8.5 E)</title>
+  <desc>
+    Transparent overlay stamp. Centre horizontally at y=300 on a 1920x1080 canvas.
+    Replace [RESULT] (the multiplier, e.g. 2.50x) and [CODE].
+    Set the two headline fills to #22c55e for a win or #ff4d6a for a loss.
+    No mascot on this stamp — the result colour is the focus.
+    Animation: 200ms scale 0.94 -> 1 with opacity 0 -> 1, hold 3.5s, 300ms fade.
+  </desc>
+
+  <text x="40" y="110" font-family="CourbeSans, sans-serif" font-size="96" font-weight="700"
+        fill="#22c55e">[RESULT]</text>
+  <text x="40" y="230" font-family="CourbeSans, sans-serif" font-size="160" font-weight="700"
+        fill="#22c55e">[MULT]</text>
+
+  <text x="860" y="240" text-anchor="end" font-family="CourbeSans, sans-serif"
+        font-size="30" font-weight="700" fill="#f97316">[CODE] &#183; juicer.games</text>
+</svg>

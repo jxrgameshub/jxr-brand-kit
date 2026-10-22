@@ -1,0 +1,20 @@
+* text=auto eol=lf
+
+# Binary assets — never attempt text diffs, never normalise line endings
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.webm binary
+*.mp4  binary
+*.otf  binary
+*.ttf  binary
+*.woff binary
+*.woff2 binary
+
+# Vector masters — diffable
+*.svg  text diff=svg
+*.css  text diff=css
+*.json text diff=json
+*.md   text
+*.txt  text

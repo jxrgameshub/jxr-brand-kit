@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="72" viewBox="0 0 300 72" role="img" aria-label="JXR Gaming persistent code bug">
+  <title>Persistent Code Bug — top-left, 300 x 72 (BRAND-GUIDELINES.md §8.5 B)</title>
+  <desc>
+    THE ALWAYS-ON ELEMENT. Ships in every scene, including just-chatting, starting
+    and ending screens. Place at x=40, y=40. Replace [CODE].
+    If you build only one overlay asset, build this one.
+  </desc>
+
+  <defs>
+    <clipPath id="bugclip"><rect width="300" height="72" rx="3"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#bugclip)">
+    <rect width="300" height="72" fill="#0e0e16" fill-opacity="0.88"/>
+    <rect x="0" y="0" width="4" height="72" fill="#f97316"/>
+  </g>
+  <rect x="0.5" y="0.5" width="299" height="71" rx="3" fill="none" stroke="#20202c" stroke-width="1"/>
+
+  <!-- Mascot 40x40, 16px from the left accent bar -->
+  <image x="20" y="16" width="40" height="40"
+         href="../01-logo/juicebox-sticker-128.png" preserveAspectRatio="xMidYMid meet"/>
+
+  <text x="76" y="32" font-family="CourbeSans, sans-serif" font-size="14" font-weight="700"
+        fill="#8e8e9a" letter-spacing="1.4">CODE</text>
+  <text x="76" y="56" font-family="CourbeSans, sans-serif" font-size="34" font-weight="700"
+        fill="#f2f2f7" letter-spacing="2.72">[CODE]</text>
+</svg>

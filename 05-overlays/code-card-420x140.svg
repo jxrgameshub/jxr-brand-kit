@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="140" viewBox="0 0 420 140" role="img" aria-label="JXR Gaming referral code card overlay">
+  <title>Code Card — lower third, 420 x 140 (BRAND-GUIDELINES.md §8.5 A)</title>
+  <desc>
+    THE PRIMARY OVERLAY DELIVERABLE. Persistent lower-third that shows the streamer's
+    referral code. Place at x=40, y=780 on a 1920x1080 canvas.
+    Replace [CODE] with the streamer's code: 4-16 chars, A-Z 0-9 - _ (uppercase).
+    Fill is 88% opacity so it holds contrast over moving gameplay.
+    All text is CourbeSans - never .font-gothic on an overlay.
+  </desc>
+
+  <defs>
+    <clipPath id="cardclip">
+      <rect width="420" height="140" rx="3"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardclip)">
+    <rect width="420" height="140" fill="#0e0e16" fill-opacity="0.88"/>
+    <!-- Left action-accent bar: 4px, full height -->
+    <rect x="0" y="0" width="4" height="140" fill="#f97316"/>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="139" rx="3" fill="none" stroke="#20202c" stroke-width="1"/>
+
+  <text x="24" y="46"  font-family="CourbeSans, sans-serif" font-size="18" font-weight="700"
+        fill="#8e8e9a" letter-spacing="1.8">USE CODE</text>
+  <text x="24" y="104" font-family="CourbeSans, sans-serif" font-size="56" font-weight="700"
+        fill="#f2f2f7" letter-spacing="4.48">[CODE]</text>
+  <text x="24" y="128" font-family="CourbeSans, sans-serif" font-size="22"
+        fill="#8e8e9a">juicer.games</text>
+
+  <!-- Mascot: 56x56, 24px from the right edge, vertically centred -->
+  <image x="340" y="42" width="56" height="56"
+         href="../01-logo/juicebox-sticker-128.png" preserveAspectRatio="xMidYMid meet"/>
+</svg>

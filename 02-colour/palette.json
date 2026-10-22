@@ -1,0 +1,149 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "name": "JXR Gaming Brand Palette",
+  "version": "1.0.0",
+  "source": "src/app/globals.css (verified)",
+  "notes": "Do not add colours. Every value verified against application source. See BRAND-GUIDELINES.md section 2.",
+  "groups": {
+    "core": {
+      "background": "#0d1017",
+      "card": "#0b0e14",
+      "popover": "#0f131a",
+      "foreground": "#bfbdb6",
+      "primary_gold": "#f0a342",
+      "primary_foreground": "#734d00",
+      "secondary": "#0b0e14",
+      "muted": "#131721",
+      "muted_foreground": "#565b66",
+      "accent": "#0f131a",
+      "destructive": "#f26d78",
+      "border": "#1e232b",
+      "input": "#2a2f3a",
+      "ring": "#f0a342"
+    },
+    "gold_ramp": {
+      "1": "#0d0a02",
+      "2": "#171106",
+      "3": "#241b07",
+      "4": "#332609",
+      "5": "#42320d",
+      "6": "#554010",
+      "7": "#6d5317",
+      "8": "#8c6c1f",
+      "9": "#f0a342",
+      "10": "#e9973c",
+      "11": "#ffca62",
+      "12": "#fdeecb"
+    },
+    "brand": {
+      "primary": "#f0a342",
+      "primary_hover": "#e9973c",
+      "secondary": "#f9af4f"
+    },
+    "orange_action": {
+      "base": "#f97316",
+      "hover": "#fb8c2a",
+      "bg": "#2a1808",
+      "bright": "#ff8a2b"
+    },
+    "surfaces": {
+      "bg_app": "#0a0a10",
+      "bg_panel": "#0e0e16",
+      "bg_panel_2": "#12121c",
+      "bg_deeper": "#07080e",
+      "bg_input": "#161620",
+      "border_subtle": "#20202c",
+      "border_strong": "#2c2c3a"
+    },
+    "text": {
+      "primary": "#f2f2f7",
+      "secondary": "#8e8e9a",
+      "tertiary": "#5a5a66"
+    },
+    "accents": {
+      "cyan": "#4dffd1",
+      "green": "#22c55e",
+      "red": "#ff4d6a"
+    },
+    "status": {
+      "success": "#7fd962",
+      "warning": "#ffb454",
+      "danger": "#f26d78",
+      "info": "#90e1c6"
+    },
+    "result": {
+      "win": "#22c55e",
+      "loss": "#ff4d6a",
+      "win_bg": "#0a1f12",
+      "loss_bg": "#2b1018"
+    },
+    "chart": {
+      "1": "#f0a342",
+      "2": "#f9af4f",
+      "3": "#7fd962",
+      "4": "#90e1c6",
+      "5": "#d2a6ff"
+    },
+    "game_accents": {
+      "crash": "#f97316",
+      "plinko": "#f97316",
+      "dice": "#f97316",
+      "roulette": "#f97316",
+      "flip": "#f97316",
+      "slots": "#f97316",
+      "jackpot": "#f97316",
+      "limbo": "#f9af4f",
+      "keno": "#f9af4f",
+      "wheel": "#f9af4f",
+      "blackjack": "#f07178",
+      "hilo": "#ffb454",
+      "mines": "#ff4d6a"
+    },
+    "vip_tiers": {
+      "wood": "#b08150",
+      "bronze": "#cd7f32",
+      "silver": "#c0c0c0",
+      "gold": "#ffd700",
+      "platinum": "#e5e4e2",
+      "jade": "#3ecf8e",
+      "sapphire": "#4a9dff",
+      "ruby": "#e5484d",
+      "diamond": "#8dd8f8",
+      "opal": "#9fe6e0",
+      "dragon": "#ff6b6b",
+      "mythic": "#ffd700",
+      "dark": "#6b7280",
+      "legend": "#fbbf24"
+    },
+    "og_card": {
+      "bg_from": "#0b0b12",
+      "bg_to": "#14141e",
+      "footer_text": "#c2c2cc"
+    }
+  },
+  "radii": {
+    "sharp": "3px",
+    "item": "2px",
+    "card": "10px",
+    "panel": "4px",
+    "avatar": "9999px"
+  },
+  "shadows": {
+    "shadow_1": "0 1px 2px rgba(0,0,0,0.85)",
+    "frame": "0 1px 3px rgba(0,0,0,0.9), 0 12px 32px rgba(0,0,0,0.8)",
+    "modal": "0 16px 40px rgba(0,0,0,0.95)"
+  },
+  "typeScale": {
+    "2xs": "8px",
+    "xs": "10px",
+    "sm": "11px",
+    "md": "13px",
+    "lg": "15px"
+  },
+  "fonts": {
+    "brand": "CourbeSans",
+    "brandWeights": [400, 700],
+    "display": "Arial Black, Impact, Franklin Gothic Heavy, Haettenschweiler, system-ui, sans-serif",
+    "mono": "ui-monospace, SFMono-Regular, Menlo, monospace"
+  }
+}

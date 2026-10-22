@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="JXR Gaming bet share card template">
+  <title>OG / Bet Share Card — 1200 x 630 (BRAND-GUIDELINES.md §7.1)</title>
+  <desc>
+    EDITABLE TEMPLATE. Replace the four placeholder text nodes:
+      [PLAYER]  30px/800 #f2f2f7
+      [GAME]    20px #8e8e9a   (format: Game · Juicer.games)
+      [RESULT]  150px/900 result colour (win #22c55e / loss #ff4d6a)
+      [PAYOUT]  56px/700  #22c55e
+      [BET]     26px      #c2c2cc   (OG footer slot only)
+    Rule: win = #22c55e, loss = #ff4d6a. Result label is a multiplier like 2.50x,
+    "WIN" (zero-multiplier win) or "BUST" (loss).
+    Font: CourbeSans (see ../03-typography/). Padding is 64px on all sides.
+  </desc>
+
+  <defs>
+    <linearGradient id="ogbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0b0b12"/>
+      <stop offset="100%" stop-color="#14141e"/>
+    </linearGradient>
+    <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#f9af4f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogbg)"/>
+
+  <!-- ===== HEADER: avatar + player + game ===== -->
+  <g transform="translate(64,64)">
+    <!-- Replace with the VIP badge image, or keep this gradient fallback circle -->
+    <circle cx="22" cy="22" r="22" fill="url(#avatar)"/>
+    <text x="22" y="31" text-anchor="middle"
+          font-family="CourbeSans, sans-serif" font-size="24" font-weight="800" fill="#ffffff">J</text>
+
+    <text x="60" y="26" font-family="CourbeSans, sans-serif" font-size="30" font-weight="800" fill="#f2f2f7">[PLAYER]</text>
+    <text x="60" y="50" font-family="CourbeSans, sans-serif" font-size="20" fill="#8e8e9a">[GAME] &#183; Juicer.games</text>
+  </g>
+
+  <!-- ===== RESULT: multiplier + payout ===== -->
+  <g transform="translate(64,300)">
+    <text x="0" y="0" font-family="CourbeSans, sans-serif" font-size="150" font-weight="900"
+          fill="#22c55e" dominant-baseline="alphabetic">[RESULT]</text>
+    <text x="470" y="0" font-family="CourbeSans, sans-serif" font-size="56" font-weight="700"
+          fill="#22c55e">[PAYOUT]</text>
+  </g>
+
+  <!-- ===== FOOTER: bet + brand ===== -->
+  <g transform="translate(64,566)">
+    <text x="0" y="0" font-family="CourbeSans, sans-serif" font-size="26" fill="#c2c2cc">Bet [BET]</text>
+  </g>
+  <g transform="translate(1136,566)">
+    <text x="0" y="0" text-anchor="end" font-family="CourbeSans, sans-serif"
+          font-size="26" font-weight="700" fill="#f97316">juicer.games</text>
+    <!-- Brand icon slot: 40x40, radius 10, sits 12px left of the domain text -->
+    <image x="-268" y="-34" width="40" height="40" href="../01-logo/juicebox-sticker-128.png" preserveAspectRatio="xMidYMid meet"/>
+    <rect x="-268" y="-34" width="40" height="40" rx="10" fill="none" stroke="#20202c" stroke-width="1" opacity="0.6"/>
+  </g>
+</svg>
