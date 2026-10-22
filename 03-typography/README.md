@@ -28,7 +28,7 @@ Access to the font files is granted **per project, for use on the JXR Gaming pla
 sanctioned channels** — not for redistribution, resale, bundling into another product, or uploading
 to font libraries, CDNs, or design-tool team libraries that are publicly shared.
 
-To request access, [open an issue](../../issues) in this repository stating:
+To request access, [open an issue](../issues/new) in this repository stating:
 
 1. The organisation and the person who will hold the licence seat.
 2. What the assets are for (platform UI, stream overlays, video, print, etc.).
